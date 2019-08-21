@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <script src="https://unpkg.com/@ionic/core@4.0.0/dist/ionic.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/dist/ionic/ionic.js"></script>
+    <title>List of task with ionic framework</title>
+</head>
+<body>
+    <ion-card>
+        <ion-card-header>
+            <h2 class="title">Crear lista de tareas</h2>
+        </ion-card-header>
+
+        <ion-card-content>
+            <ion-item>
+                <ion-input placeholder="Nombre de la tarea" id="name"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-textarea placeholder="Descripción de la tarea" id="description"></ion-textarea>
+            </ion-item>  
+    
+            <ion-button color="primary" id="send-info">Crear Tarea</ion-button>
+        </ion-card-content>
+    </ion-card>
+
+    <div id="task-ui"></div>
+
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/css/ionic.bundle.css"/>
+    <script src="../public/js/app.js"></script>
+</body>
+</html>
